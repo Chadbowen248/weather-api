@@ -1,0 +1,77 @@
+body {
+  color: #fff;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  cursor:default;
+}
+
+.soCold {
+  background: #283048; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #283048 , #859398); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #283048 , #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.cold {
+  background: #2C3E50;
+  background: -webkit-linear-gradient(to left, #2C3E50 , #4CA1AF);
+  background: linear-gradient(to left, #2C3E50 , #4CA1AF);}
+.fair {
+  background: #EC6F66; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #EC6F66 , #F3A183); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #EC6F66 , #F3A183); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.nice {
+  background: #fd746c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #fd746c , #ff9068); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #fd746c , #ff9068); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.hot {
+  background: #c21500; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #c21500 , #ffc500); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #c21500 , #ffc500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.hothot {
+  background: #FF512F; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #FF512F , #DD2476); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #FF512F , #DD2476); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+
+
+
+
+
+
+#temp{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.5em;
+}
+
+.container-hidden{
+  display: none;
+}
+.container {
+  margin-top: 250px;
+  animation: fade 2s;
+  text-align: center;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+.color {
+  color: white;
+}
+i {
+  margin-bottom: 15px;
+  font-size: 60px;
+}

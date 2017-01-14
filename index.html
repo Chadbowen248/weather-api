@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/weathericons.css">
+  <title>Document</title>
+  <div class="container-hidden">
+    <h1 id="cityID"></h1>
+    <div id='weatherIcon'>
+      <i id='icon'></i>
+    </div>
+    <div id="desc"></div>
+    <span id='temp' onclick='App.toggleTemp()'></span>
+
+  </div>
+</head>
+<body>
+  <script src='./weatherApi.js'></script>
+</body>
+</html>
